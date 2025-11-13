@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+
+@media (width < 426px) {
+
+    img{
+        display: none;
+    }
+    .textsize{
+        font-size: 30px;
+    }
+    
+}
